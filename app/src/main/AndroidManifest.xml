@@ -9,12 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MShop">
-        <activity android:name=".MainActivity">
+<!--        stavljamo intent filtere na splash screen kako bi se app otvaralo na tom activityu-->
+        <activity android:name=".activities.SplashScreenActivity" android:screenOrientation="portrait" android:theme="@style/Theme.MShop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity">
+
         </activity>
     </application>
 

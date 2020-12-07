@@ -6,6 +6,7 @@ plugins {
 }
 //dodaje google servise (mora biti izvan plugins zagrada inače neće raditi )
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 30

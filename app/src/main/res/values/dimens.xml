@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<!--    dodaje se dimenzija za skaliranje naslova za različite zaslone-->
+    <dimen name="splash_title_text_size">50dp</dimen>
+</resources>
