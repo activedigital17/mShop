@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "276133447049",
+    "project_id": "ducan-2d635",
+    "storage_bucket": "ducan-2d635.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276133447049:android:5e0144ff87fcc3e08e4d58",
+        "android_client_info": {
+          "package_name": "com.aplantas.mshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276133447049-4m3api737t6moe9drplj614b87epf3re.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aplantas.mshop",
+            "certificate_hash": "8de43b7cd4fd823cdeb0451a5e4b736f3c52322a"
+          }
+        },
+        {
+          "client_id": "276133447049-7a97h0gh16l9ucpre2u9n1h6rtkcuf11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqJw73gB6ItVLXhrclBjvBJ1GuMt8xSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276133447049-7a97h0gh16l9ucpre2u9n1h6rtkcuf11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
