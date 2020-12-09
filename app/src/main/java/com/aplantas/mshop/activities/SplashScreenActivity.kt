@@ -33,7 +33,7 @@ class SplashScreenActivity : AppCompatActivity() {
         @Suppress("DEPRECATION")
         Handler().postDelayed({
             //definira se koji Activity se pali, package Context = this odnosno aktivan activity
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
 
             //ubija splash screen da se ne može back na njega napraviti
             finish()

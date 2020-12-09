@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
-<!--    dodaje se dimenzija za skaliranje naslova za različite zaslone-->
-    <dimen name="splash_title_text_size">50dp</dimen>
     <dimen name="button_background_radius">10dp</dimen>
+    <dimen name="splash_title_text_size">50dp</dimen>
 
     <dimen name="auth_header_image_height">200dp</dimen>
     <dimen name="auth_logo_width_size">220dp</dimen>
