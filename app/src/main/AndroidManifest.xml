@@ -9,10 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MShop">
-        <activity android:name=".activities.LoginActivity" android:screenOrientation="portrait" android:theme="@style/Theme.MShop">
+        <activity android:name=".activities.RegisterActivity" android:screenOrientation="portrait" android:theme="@style/Theme.MShop">
 
         </activity>
-        <!-- stavljamo intent filtere na splash screen kako bi se app otvaralo na tom activityu -->
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MShop">
+
+        </activity> <!-- stavljamo intent filtere na splash screen kako bi se app otvaralo na tom activityu -->
         <activity
             android:name=".activities.SplashScreenActivity"
             android:screenOrientation="portrait"
@@ -23,7 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.MainActivity" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

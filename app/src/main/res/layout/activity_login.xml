@@ -84,6 +84,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
+        app:hintTextColor="@color/black"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
         android:hint="Unesi email"
@@ -114,6 +115,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
+        app:hintTextColor="@color/black"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
@@ -203,12 +205,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-
             android:fontFamily="@font/architects_daughter"
+            android:foreground="?attr/selectableItemBackground"
             android:padding="@dimen/clickable_text_view_padding"
             android:text="Registriraj se"
             android:textColor="@color/black"
-            android:textSize="@dimen/lbl_text_view_textSize" />
+            android:textSize="@dimen/lbl_text_view_textSize"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
