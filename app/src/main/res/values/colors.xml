@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#F4442d</color>
     <color name="pink">#ED2173</color>
+    <color name="colorSnackBarError">#F72400</color>
+    <color name="colorSnackBarSuccess">#8BC34A</color>
 </resources>
